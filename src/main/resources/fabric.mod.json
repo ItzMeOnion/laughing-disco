@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "knifepack",
+  "version": "${version}",
+  "name": "Knife Pack",
+  "description": "Knife selection menu with a hold-to-spin keybind.",
+  "authors": [],
+  "license": "All Rights Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.knifepack.client.KnifePackClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "~1.21.8",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
